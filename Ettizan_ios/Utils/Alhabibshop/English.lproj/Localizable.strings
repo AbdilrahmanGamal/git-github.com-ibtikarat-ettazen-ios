@@ -1,0 +1,330 @@
+/* 
+  Localizable.strings
+  Exlcart
+
+  Created by Adyas Iinfotech on 04/11/17.
+  Copyright © 2017 adyas. All rights reserved.
+*/
+
+
+
+
+"Home"="الرئيسية";
+"Shop"="تسوق";
+"Shopping Bag"="حقيبة التسوق";
+"My Account"="حسابي";
+
+
+/*
+"الصفحة الرئيسية"///
+*/
+
+"Top Categories"="أبرز الأقسام";
+"View All"="عرض الكل";
+"Search"="ابحث عن منتجاتك المفضلة..";
+"Shop All Categories"="تسوق جميع الأقسام";
+
+/*
+"التسجيل"////
+*/
+
+"Sign Up"="التسجيل";
+;"تسجيل الدخول"="Login"
+;"لديك حساب؟ تسجيل الدخول"="Have an account? Login"
+;"الاسم الأول"="First Name"
+;"اسم العائلة"="Last Name"
+;"البريد الالكتروني"="Email"
+;"كلمة المرور"="Password"
+;"تأكيد كلمة المرور"="Confirm Password"
+;"رقم الجوال"="Phone Number"
+;"التسجيل"="Sign Up"
+;"تسجيلك يعني موافقتك على سياسة الخصوصية"="By creating an account, you agree to our Privacy Policy"
+;"البريد الإلكتروني مستخدم مسبقا، الرجاء كتابة بريد إلكتروني آخر"="It looks like you already have an account with us!"
+;"الرجاء كتابة الاسم الأول"="Please enter the first name"
+;"الرجاء كتابة اسم العائلة"="Please enter the last name"
+;"الرجاء كتابة البريد الالكتروني"="Please enter email"
+;"الرجاء كتابة كلمة المرور"="Please enter password"
+;"الرجاء كتابة تأكيد كلمة المرور"="Please enter confirm password"
+;"الرجاء كتابة رقم الجوال"="Please enter phone number"
+;"لم تتطابق كلمة المرور الرجاء إعادة الكتابة مرة اخرى"="The passwords you entered do not match"
+;"الرجاء كتابة بريد إلكتروني صحيح"="Please enter a valid email"
+;"رقم الجوال يجب أن يكون بالارقام الانجليزية مثال 5XXXXXXXX"="Phone number must be in English numbers, for example 5XXXXXXXX"
+
+
+"Phone Number"="رقم الجوال";
+"Login With Email"="تسجيل الدخول عن طريق البريد الالكتروني";
+"Login With Phone"="تسجيل الدخول عن طريق الجوال";
+"Invalid phone number"="رقم الجوال غير صحيح";
+
+
+
+/*
+"تسجيل الدخول"/////
+*/
+
+
+;"ليس لديك حساب؟ التسجيل"="Don’t have an account? Sign Up"
+;"البريد الإلكتروني أو رقم الجوال"="Email"
+;"كلمة المرور"="Password"
+;"هل نسيت كلمة المرور؟"="Forgot your password?"
+;"تسجيل الدخول"="Login"
+"OR"="أو";
+;"تسجيل الدخول عن طريق رقم الجوال"="LOGIN WITH PHONE NUMBER"
+;"رقم الجوال"="Phone Number"
+;"تسجيل الدخول عن طريق البريد الالكتروني"="LOGIN WITH EMAIL"
+;"الرجاء كتابة البريد الالكتروني"="Please enter email"
+;"الرجاء كتابة كلمة المرور"="Please enter password"
+;"الرجاء كتابة بريد إلكتروني صحيح"="Please enter a valid email"
+;"لا يوجد تطابق بين البريد الإلكتروني و كلمة المرور"="Email and password do not match."
+;"رقم الجوال يجب أن يكون بالارقام الانجليزية مثال 5XXXXXXXX"="Phone number must be in English numbers, for example 5XXXXXXXX"
+
+
+/*
+"نسيت كلمة المرور"/////
+*/
+
+
+;"هل نسيت كلمة المرور؟"="Forgot your password?"
+;"البريد الإلكتروني"="Email"
+;"إعادة تعيين كلمة المرور"="Reset Password"
+;"الرجاء كتابة البريد الالكتروني"="Please enter email"
+;"الرجاء كتابة بريد إلكتروني صحيح"="Please enter a valid email"
+;"أدخل بريدك الإلكتروني وسوف يتم إرسال رابط إعادة تعيين كلمة المرور على بريدك الإلكتروني"="Enter your email and a password reset link will be sent to your email"
+;"تم إرسال رابط إعادة تعيين كلمة المرور إلى بريدك الإلكتروني"="Password reset link has been sent to your email"
+
+/*
+"صفحة المنتج"////
+*/
+
+;"متبقي 1 من هذا المنتج"="Only 1 left in stock"
+;"متبقي كمية قليلة"="Only a few left"
+;"إضافة إلى حقيبة التسوق"="Add to Shopping Bag"
+;"40 ريال"="40 SAR"
+;"منتجات قد تعجبك"="You May Also Like"
+;"نفذت الكمية"="Out of Stock"
+;"الرجاء اختيار المقاس"="Please Select Size"
+"SKU:"="SKU:";
+;"التفاصيل"="Details"
+;"منتجات قد تعجبك"="You May Also Like"
+
+/*
+"صفحة المنتجات"//
+*/
+
+
+
+
+;"ترتيب حسب"="Sort By"
+;"الافتراضي"="Default"
+;"السعر: من الأقل إلى الأعلى"="Price Low to High"
+;"السعر: من الأعلى إلى الأقل"="Price High to Low"
+;"التقييم: من الأعلى الى الأقل"="Rating Highest"
+;"تصفية حسب"="Filter By"
+;"منتج"="Product"
+
+/*
+"حقيبة التسوق"////
+*/
+
+
+;"حقيبة التسوق"="Shopping Bag"
+;"حقيبة تسوقك فارغة!"="Your Shopping Bag is Empty!"
+;"متابعة التسوق"="Continue Shopping"
+;"الكمية:"="Qty:"
+;"المقاس:"="Size:"
+;"نفذت الكمية"="Out of Stock"
+;"الكمية المطلوبة أعلى من المتوفر"="Quantity exceeds the available stock."
+;"الشحن"="Shipping"
+;"شحن مجاني عند إضافة 30 ريال إلى حقيبة التسوق"="FREE SHIPPING when you added 30 SAR to your Bag"
+;"حصلت على شحن المجاني الآن!"="You got a FREE SHIPPING! Enjoy"
+;"المتابعة لإنهاء الطلب"="Continue to Checkout"
+;"إضافة كود الخصم"="Add Promo Code"
+;"الرجاء كتابة كود الخصم"="Please enter Promo Code"
+;"إضافة"="Add"
+;"كود الخصم خاطئ أو انتهت صلاحيته أو لا يشمل المنتجات المخفضة."="The promo code you entered is invalid or does not include discounted products."
+
+/*
+"الدفع"///
+*/
+
+;"الدفع"="Checkout"
+;"المعلومات الشخصية"="Personal Information"
+;"الاسم الأول"="First Name"
+;"اسم العائلة"="Last Name"
+;"رقم الجوال"="Phone Number"
+;"الرجاء كتابة الاسم الأول"="Please enter the first name"
+;"الرجاء كتابة اسم العائلة"="Please enter the last name"
+;"الرجاء كتابة رقم الجوال"="Please enter phone number"
+;"رقم الجوال يجب أن يكون بالارقام الانجليزية مثال 5XXXXXXXX"="Phone number must be in English numbers, for example 5XXXXXXXX"
+;"عنوان الشحن"="Shipping Address"
+;"لا توجد لديك عناوين محفوظة"="You have no saved addresses"
+;"إضافة عنوان شحن جديد"="Add new Address"
+;"الدولة"="Country"
+;"المنطقة"="Region"
+;"المدينة"="City"
+;"العنوان"="Address"
+;"مثال: الحي، الشارع، أقرب معلم لعنوانك"="Neighborhood, street, landmark"
+;"الرجاء اختيار الدولة"="Please select country"
+;"الرجاء اختيار المنطقة"="Please select region"
+;"الرجاء اختيار المدينة"="Please select city"
+;"الرجاء كتابة العنوان"="Please enter address"
+;"الشحن لهذا العنوان"="Deliver to this address"
+;"إضافة عنوان شحن جديد"="Add new Address"
+;"اختيار كعنوان أساسي"="Set as default Address"
+;"حفظ"="Save"
+;"العنوان الأساسي"="Default Address"
+;"تعديل"="Edit"
+;"اختر عنوان الشحن"="Select Shipping Address"
+;"طريقة الشحن"="Shipping Method"
+;"التوصيل العادي"="Standard Shipping"
+;"الوقت المتوقع لتسليم الطلب من 4-9 أيام عمل من تاريخ الشحن"="The estimated delivery date is in 4-9 business days from the date of shipment."
+;"طريقة الدفع"="Payment Method"
+;"ابل باي"="Apple Pay"
+;"فيزا - مدى - ماستر كارد"="Visa - Mada - Mastercard"
+;"الدفع عند الاستلام"="Cash On delivery"
+;"التحويل البنكي"="Bank Transfer"
+;"حقيبة التسوق"="Shopping Bag"
+;"الكمية:"="Qty:"
+;"المقاس:"="Size:"
+;"نفذت الكمية"="Out of Stock"
+;"إضافة كود الخصم"="Add Promo Code"
+;"إضافة"="Add"
+;"كود الخصم خاطئ أو انتهت صلاحيته أو لا يشمل المنتجات المخفضة."="The promo code you entered is invalid or does not include discounted products."
+;"تم قبول كود الخصم!"="Valid promo code You got a great deal!"
+ ;"ملخص الطلب"="Order Summary"
+;"المجموع الفرعي"="Subtotal"
+;"ضريبة القيمة المضافة 15%"="VAT 15%"
+;"الشحن"="Shipping"
+;"كود الخصم"="Promo Code"
+;"خصم الدفع أون لاين"="Extra Discount"
+;"تأكيد الطلب"="Place Order"
+
+"شكرا لطلبك"////
+
+;"شكرًا لتسوقك، تم استلام طلبك بنجاح!"="Thank you for shopping with us, your order has been received!"
+;"رقم الطلب"="Order number"
+;"سوف تصلك رسالة استلام الطلب عبر بريدك الإلكتروني ورقم جوالك المسجل"="You will receive an email with full details of your order."
+;"الوقت المتوقع لتسليم الطلب من  4 - 9 أيام عمل من تاريخ الشحن"="The estimated delivery date is in 4-9 business days from the date of shipment."
+;"مشاهدة تفاصيل الطلب"="View Order Details"
+;"متابعة التسوق"="Continue Shopping"
+;"تحتاج مساعدة؟"="Need Help?"
+;"تواصل مع فريق خدمة العملاء"="Contact Customer Service"
+"care@alhabibshop.com"="care@alhabibshop.com";
+"0594241111"="0594241111";
+
+/*
+"حسابي"//=/
+*/
+
+;"سجل دخولك لمتابعة حالة طلباتك، وتعديل بياناتك والمزيد..."="Sign Up to view your order status, and save your favorite products easily and much more..."
+;"تسجيل الدخول"="Login"
+;"التسجيل"="Sign Up"
+;"الاعدادات"="Settings"
+;"اللغة"="Language"
+;"الدولة"="Country"
+;"مساعدة"="Help"
+;"الأسئلة الشائعة"="FAQ"
+;"إنشاء تذكرة استرجاع"="Create Return Ticket"
+;"تواصل معنا"="Contact Us"
+;"معلومات"="Information"
+;"عن مفارش الحبيب"="About AlHabib Bedding"
+;"طرق الدفع والشحن"="Shipment & Payment"
+;"سياسة الاستبدال والاسترجاع"="Returns & Exchanges Policy"
+;"أنت على وشك مغادرة التطبيق والتوجه الى موقع مفارش الحبيب"="You are about to leave the app and go to Al Habib Bedding website"
+;"نعم"="OK"
+;"إلغاء"="Cancel"
+
+/*
+"تواصل معنا"///=
+*/
+
+;"تواصل معنا"="Contact Us"
+;"تواصل معنا على الواتساب"="Contact us via Whatsapp"
+;"راسلنا علي البريد الالكتروني"="Contact us via Email"
+;"الاتصال بنا"="Contact us via Phone"
+;"من السبت الى الخميس 09:00 ص - 09:00 م"="From Saturday to Thursday 09:00 AM - 09:00 PM"
+
+/*
+"الطلبات"///=/
+*/
+
+;"الطلبات"="Orders"
+;"لا يوجد لديك طلبات حاليا"="You have no orders"
+;"متابعة التسوق"="Continue Shopping"
+;"تاريخ الطلب"="Order Date"
+;"حالة الطلب"="Order Status"
+;"رقم الطلب"="Order No"
+;"تتبع الشحنة"="Track Shipment"
+;"عرض التفاصيل"="View Details"
+
+/*
+"تفاصيل الطلب"////
+*/
+
+
+;"تفاصيل الطلب"="Order Details"
+;"تاريخ الطلب"="Order Date"
+;"حالة الطلب"="Order Status"
+;"رقم الطلب"="Order No"
+;"إلغاء الطلب"="Cancel Order"
+;"سيتم الحصول علي رابط التتبع قريباًً"="The tracking link will be obtained soon."
+;"تتبع الشحن"="Shipping Tracking"
+;"المنتجات"="Products"
+;"الكمية:"="QTY:"
+;"المقاس:"="Size:"
+;"تفاصيل الشحن"="Shipping Details"
+;"عنوان الشحن"="Shipping Address"
+;"طريقة الشحن"="Shipping Method"
+;"التوصيل العادي"="Standard Shipping"
+;"الوقت المتوقع لتسليم الطلب من  4 - 9 أيام عمل من تاريخ الشحن"="The estimated delivery date is in 4-9 business days from the date of shipment."
+;"تفاصيل الدفع"="Payment Details"
+;"ملخص الطلب"="Order Summary"
+;"المجموع الفرعي"="Subtotal"
+;"ضريبة القيمة المضافة 15%"="VAT 15%"
+;"الشحن"="Shipping"
+;"كود الخصم"="Promo Code"
+;"خصم الدفع أون لاين"="Extra Discount"
+;"تأكيد الطلب"="Place Order"
+;"إنشاء تذكرة استرجاع"="Create Return Ticket"
+;"الاسئلة الشائعة"="FAQ"
+;"تحتاج مساعدة؟"="Need Help?"
+;"تواصل مع خدمة العملاء من السبت الى الخميس"="Contact customer service from Saturday to Thursday"
+;"من 9:00 ص الى 4:00 م"="From 9:00 AM to 4:00 PM"
+"care@alhabibshop.com"="care@alhabibshop.com";
+"0594241111"="0594241111";
+
+/*
+"معلوماتك الشخصية"///
+*/
+
+;"المعلومات الشخصية"="Personal Information"
+;"الاسم الأول"="First Name"
+;"اسم العائلة"="Last Name"
+;"البريد الإلكتروني"="Email"
+;"رقم الجوال"="Phone Number"
+;"الرجاء كتابة الاسم الأول"="Please enter the first name"
+;"الرجاء كتابة اسم العائلة"="Please enter the last name"
+;"الرجاء كتابة رقم الجوال"="Please enter phone number"
+;"رقم الجوال يجب أن يكون بالارقام الانجليزية مثال 5XXXXXXXX"="Phone number must be in English numbers, for example 5XXXXXXXX"
+;"الرجاء كتابة البريد الالكتروني"="Please enter email"
+;"الرجاء كتابة بريد إلكتروني صحيح"="Please enter a valid email"
+;"حفظ"="Save"
+
+/*
+"تعديل كلمة المرور"///
+*/
+
+
+
+;"تعديل كلمة المرور"="Edit Password"
+;"كلمة المرور الجديدة"="New Password"
+;"تأكيد كلمة المرور الجديدة"="Confirm New Password"
+;"الرجاء كتابة كلمة المرور الجديدة"="Please enter New Password"
+;"الرجاء كتابة تأكيد كلمة المرور الجديدة"="Please enter Confirm New Password"
+;"لم تتطابق كلمات المرور الرجاء إعادة الكتابة مرة اخرى"="The passwords you entered do not match"
+;"حفظ"="Save"
+
+
+
+
+

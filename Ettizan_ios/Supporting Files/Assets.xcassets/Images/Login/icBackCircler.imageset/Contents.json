@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "icBackCircler.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

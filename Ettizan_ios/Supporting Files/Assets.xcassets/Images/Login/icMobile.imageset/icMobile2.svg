@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.5" height="24" viewBox="0 0 30.5 24">
+  <g id="Group_72480" data-name="Group 72480" transform="translate(-345.5 -368)">
+    <path id="Line" d="M0,0V18.993" transform="translate(346 370.5)" fill="none" stroke="#b8babf" stroke-linecap="round" stroke-width="1" opacity="0.75"/>
+    <path id="mobile-notch" d="M15.045,0c-.027,0-6.063,0-6.09,0A5.006,5.006,0,0,0,4,5V19a5.006,5.006,0,0,0,5,5h6a5.006,5.006,0,0,0,5-5V5A5.007,5.007,0,0,0,15.045,0ZM18,19a3,3,0,0,1-3,3H9a3,3,0,0,1-3-3V5A3.006,3.006,0,0,1,8.411,2.058l.694,1.389A1,1,0,0,0,10,4h4a1,1,0,0,0,.9-.553l.694-1.389A3,3,0,0,1,18,5V19Zm-5,1H11a1,1,0,0,1-1-1h0a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1h0A1,1,0,0,1,13,20Z" transform="translate(356 368.001)" fill="#b8babf"/>
+  </g>
+</svg>

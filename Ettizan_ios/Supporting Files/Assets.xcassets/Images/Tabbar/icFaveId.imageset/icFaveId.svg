@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.53" height="16.53" viewBox="0 0 16.53 16.53">
+  <g id="Icon" transform="translate(-2.25 -2.25)">
+    <path id="Path_104816" data-name="Path 104816" d="M3.522,7.972v-1.7A2.755,2.755,0,0,1,6.276,3.522h1.7a.636.636,0,1,0,0-1.272h-1.7A4.026,4.026,0,0,0,2.25,6.276v1.7a.636.636,0,1,0,1.272,0Z" transform="translate(0)" fill="#034243" fill-rule="evenodd"/>
+    <path id="Path_104817" data-name="Path 104817" d="M14.886,3.522h1.7a2.755,2.755,0,0,1,2.755,2.755v1.7a.636.636,0,0,0,1.272,0v-1.7A4.026,4.026,0,0,0,16.581,2.25h-1.7a.636.636,0,1,0,0,1.272Z" transform="translate(-1.828 0)" fill="#034243" fill-rule="evenodd"/>
+    <path id="Path_104818" data-name="Path 104818" d="M2.25,14.886v1.7a4.026,4.026,0,0,0,4.026,4.026h1.7a.636.636,0,1,0,0-1.272h-1.7a2.755,2.755,0,0,1-2.755-2.755v-1.7a.636.636,0,1,0-1.272,0Z" transform="translate(0 -1.828)" fill="#034243" fill-rule="evenodd"/>
+    <path id="Path_104819" data-name="Path 104819" d="M14.886,20.608h1.7a4.026,4.026,0,0,0,4.026-4.026v-1.7a.636.636,0,1,0-1.272,0v1.7a2.755,2.755,0,0,1-2.755,2.755h-1.7a.636.636,0,0,0,0,1.272Z" transform="translate(-1.828 -1.828)" fill="#034243" fill-rule="evenodd"/>
+    <path id="Path_104820" data-name="Path 104820" d="M14.75,8.386v.848a.636.636,0,0,0,1.272,0V8.386a.636.636,0,1,0-1.272,0Z" transform="translate(-1.904 -0.838)" fill="#034243" fill-rule="evenodd"/>
+    <path id="Path_104821" data-name="Path 104821" d="M7.75,8.386v.848a.636.636,0,0,0,1.272,0V8.386a.636.636,0,0,0-1.272,0Z" transform="translate(-0.838 -0.838)" fill="#034243" fill-rule="evenodd"/>
+    <path id="Path_104822" data-name="Path 104822" d="M11.6,12.035V9.886a.636.636,0,1,1,1.272,0v2.543a.636.636,0,0,1-.352.569l-.848.424a.636.636,0,0,1-.568-1.138Z" transform="translate(-1.295 -1.066)" fill="#034243" fill-rule="evenodd"/>
+    <path id="Path_104823" data-name="Path 104823" d="M13.87,14.936a.635.635,0,1,1,.9.9c-.115.115,0,0,0,0a4.83,4.83,0,0,1-6.831,0v0a.635.635,0,1,1,.9-.9c.115.115,0,0,0,0a3.558,3.558,0,0,0,5.032,0h0Z" transform="translate(-0.838 -1.904)" fill="#034243" fill-rule="evenodd"/>
+  </g>
+</svg>

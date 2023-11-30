@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "info-circle-linear.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

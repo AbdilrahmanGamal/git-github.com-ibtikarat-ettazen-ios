@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="Group_81963" data-name="Group 81963" transform="translate(-243.113 -593.113)">
+    <g id="Group_81961" data-name="Group 81961" transform="translate(243.113 593.113)">
+      <g id="Group_81957" data-name="Group 81957" transform="translate(44 0) rotate(90)">
+        <g id="Group_59829" data-name="Group 59829" transform="translate(44 44) rotate(180)">
+          <g id="Group_76728" data-name="Group 76728" transform="translate(44 0) rotate(90)">
+            <g id="Group_60187" data-name="Group 60187" transform="translate(0 0)">
+              <rect id="Rectangle_51654" data-name="Rectangle 51654" width="44" height="44" rx="22" transform="translate(0 0)" opacity="0.11"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="comm-17_chat" d="M4.275.529A3.741,3.741,0,0,0,.538,4.274L.529,9.45A3.725,3.725,0,0,0,4,13.169V16.4a.269.269,0,0,0,.46.19l3.389-3.4h5.09A3.739,3.739,0,0,0,16.672,9.45V4.275A3.732,3.732,0,0,0,12.943.529ZM5.911,6.056a.807.807,0,1,1-.807.807A.811.811,0,0,1,5.911,6.056Zm2.69,0a.807.807,0,1,1-.807.807A.811.811,0,0,1,8.6,6.056Zm2.691,0a.807.807,0,1,1-.808.807A.811.811,0,0,1,11.291,6.056Z" transform="translate(13.4 14.473)"/>
+    </g>
+  </g>
+</svg>

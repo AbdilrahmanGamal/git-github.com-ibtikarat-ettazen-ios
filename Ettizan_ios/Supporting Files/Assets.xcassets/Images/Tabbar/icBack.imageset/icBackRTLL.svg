@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_76653" data-name="Group 76653" transform="translate(-367 -60)">
+    <g id="Group_59829" data-name="Group 59829" transform="translate(440 160) rotate(180)">
+      <g id="_48061" data-name="48061" transform="translate(33 60)" fill="none" stroke="#d7d9db" stroke-width="1">
+        <rect width="40" height="40" rx="20" stroke="none"/>
+        <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" fill="none"/>
+      </g>
+      <g id="Layer_2" data-name="Layer 2" transform="translate(41 68)">
+        <g id="arrow-ios-back">
+          <rect id="Rectangle_579" data-name="Rectangle 579" width="24" height="24" transform="translate(24) rotate(90)" fill="#444251" opacity="0"/>
+          <path id="Path_2249" data-name="Path 2249" d="M13.83,19a1,1,0,0,1-.78-.37l-4.83-6a1,1,0,0,1,0-1.27l5-6a1,1,0,0,1,1.54,1.28L10.29,12l4.32,5.36A1,1,0,0,1,13.83,19Z" fill="#444251"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

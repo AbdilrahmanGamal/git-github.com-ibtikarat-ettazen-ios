@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Alnaseeb.otf">
+            <string>Alnaseeb-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Choose CountryVC-->
+        <scene sceneID="oxw-oL-CSJ">
+            <objects>
+                <viewController storyboardIdentifier="ChooseCountryVC" id="iLx-uc-Qb8" customClass="ChooseCountryVC" customModule="Ettizan_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oLl-bk-OlL">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="mya-X0-U3J">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="u9B-Wx-CSg">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="694"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aju-xm-pih">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="142"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="FEv-Nr-RMC">
+                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="142"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RG-a9-i1C">
+                                                                <rect key="frame" x="20" y="87" width="30" height="30"/>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ChooseCountry" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgh-cA-udl">
+                                                                <rect key="frame" x="136.66666666666666" y="90.333333333333329" width="109.66666666666666" height="26.666666666666671"/>
+                                                                <fontDescription key="fontDescription" name="Alnaseeb-Regular" family="Alnaseeb" pointSize="22"/>
+                                                                <color key="textColor" name="#3B3C3E"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="localized" value="ChooseCountry"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pw5-b2-jYU">
+                                                                <rect key="frame" x="323" y="67" width="50" height="50"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="50" id="NQj-jy-Yv1"/>
+                                                                    <constraint firstAttribute="width" secondItem="Pw5-b2-jYU" secondAttribute="height" multiplier="1:1" id="XuQ-zJ-gGe"/>
+                                                                </constraints>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" image="icClose"/>
+                                                                <connections>
+                                                                    <action selector="btnDismiss:" destination="iLx-uc-Qb8" eventType="touchUpInside" id="6rh-5G-nOI"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="20" bottom="25" trailing="20"/>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" name="#F8F8F8"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="FEv-Nr-RMC" secondAttribute="bottom" id="EKa-Yu-CNn"/>
+                                                    <constraint firstItem="FEv-Nr-RMC" firstAttribute="leading" secondItem="aju-xm-pih" secondAttribute="leading" id="Eb7-9K-MWn"/>
+                                                    <constraint firstItem="FEv-Nr-RMC" firstAttribute="top" secondItem="aju-xm-pih" secondAttribute="top" id="PWu-wM-aox"/>
+                                                    <constraint firstAttribute="trailing" secondItem="FEv-Nr-RMC" secondAttribute="trailing" id="z8A-RL-vRq"/>
+                                                </constraints>
+                                            </view>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="egq-p5-TJp">
+                                                <rect key="frame" x="0.0" y="142" width="393" height="552"/>
+                                                <color key="backgroundColor" name="#F8F8F8"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="iLx-uc-Qb8" id="Uc3-Ga-KK1"/>
+                                                    <outlet property="delegate" destination="iLx-uc-Qb8" id="7uj-1m-9Rq"/>
+                                                </connections>
+                                            </tableView>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pou-dO-XX8">
+                                        <rect key="frame" x="0.0" y="714" width="393" height="138"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="AmK-A2-EAC">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="138"/>
+                                                <subviews>
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRH-pX-h9L">
+                                                        <rect key="frame" x="35" y="22" width="323" height="60"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="60" id="3oh-Qx-qdU"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Alnaseeb-Regular" family="Alnaseeb" pointSize="18"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Save" backgroundImage="bgButton">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="localized" value="Save"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="15"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="btnSave:" destination="iLx-uc-Qb8" eventType="touchUpInside" id="8j3-fc-geG"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <directionalEdgeInsets key="directionalLayoutMargins" top="22" leading="35" bottom="22" trailing="35"/>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" name="#F8F8F8"/>
+                                        <constraints>
+                                            <constraint firstItem="AmK-A2-EAC" firstAttribute="leading" secondItem="Pou-dO-XX8" secondAttribute="leading" id="GK6-RG-BG8"/>
+                                            <constraint firstAttribute="trailing" secondItem="AmK-A2-EAC" secondAttribute="trailing" id="L8A-ep-dF4"/>
+                                            <constraint firstAttribute="bottom" secondItem="AmK-A2-EAC" secondAttribute="bottom" id="iR5-eW-1RR"/>
+                                            <constraint firstItem="AmK-A2-EAC" firstAttribute="top" secondItem="Pou-dO-XX8" secondAttribute="top" id="kuA-XB-EJM"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Tk4-QD-cB7"/>
+                        <color key="backgroundColor" name="#F8F8F8"/>
+                        <constraints>
+                            <constraint firstItem="mya-X0-U3J" firstAttribute="leading" secondItem="Tk4-QD-cB7" secondAttribute="leading" id="oOm-yY-pIK"/>
+                            <constraint firstAttribute="trailing" secondItem="mya-X0-U3J" secondAttribute="trailing" id="utL-bA-HYc"/>
+                            <constraint firstAttribute="bottom" secondItem="mya-X0-U3J" secondAttribute="bottom" id="wRP-oW-0g5"/>
+                            <constraint firstItem="mya-X0-U3J" firstAttribute="top" secondItem="oLl-bk-OlL" secondAttribute="top" id="z55-1a-ad5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="egq-p5-TJp" id="yAp-hk-BqH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wAr-0w-Q4P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="418" y="-47"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bgButton" width="424" height="60"/>
+        <image name="icClose" width="30" height="30"/>
+        <namedColor name="#3B3C3E">
+            <color red="0.23100000619888306" green="0.23499999940395355" blue="0.24300000071525574" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#F8F8F8">
+            <color red="0.97299998998641968" green="0.97299998998641968" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

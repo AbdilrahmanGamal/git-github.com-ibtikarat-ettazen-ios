@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="215" height="138.42" viewBox="0 0 215 138.42">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.425" x2="0" y2="0.468" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dada7c"/>
+      <stop offset="1" stop-color="#63c4ca"/>
+    </linearGradient>
+  </defs>
+  <rect id="man-sleeping-bed-morning" width="215" height="138.42" fill="url(#linear-gradient)"/>
+</svg>

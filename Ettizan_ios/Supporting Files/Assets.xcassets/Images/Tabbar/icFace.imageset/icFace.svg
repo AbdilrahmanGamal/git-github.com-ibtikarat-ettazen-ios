@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="ic_facebook" style="isolation: isolate">
+    <g id="ic">
+      <g id="Fill">
+        <g id="Shape_Type" data-name="Shape Type">
+          <path id="Rounded" d="M12,0H28A12,12,0,0,1,40,12V28A12,12,0,0,1,28,40H12A12,12,0,0,1,0,28V12A12,12,0,0,1,12,0Z" fill="#22c1d3" opacity="0.087"/>
+        </g>
+      </g>
+      <g id="ic_facebook-2" data-name="ic_facebook" transform="translate(8 8)">
+        <path id="Fill-2" data-name="Fill" d="M9.971,19.941a9.971,9.971,0,1,1,9.97-9.97A9.982,9.982,0,0,1,9.971,19.941ZM7.313,8.438A.313.313,0,0,0,7,8.753L7.007,10.4a.314.314,0,0,0,.313.312H8.645l-.009,5.1h2.226l.009-5.1h1.762a.314.314,0,0,0,.311-.276l.194-1.645a.313.313,0,0,0-.311-.35H10.862V7.062c0-.63.182-1.049,1.068-1.049h.829a.313.313,0,0,0,.312-.313V4.313A.313.313,0,0,0,12.759,4H11.408A2.608,2.608,0,0,0,8.636,6.849V8.438Z" transform="translate(2 2)" fill="#22c1d3"/>
+      </g>
+    </g>
+  </g>
+</svg>

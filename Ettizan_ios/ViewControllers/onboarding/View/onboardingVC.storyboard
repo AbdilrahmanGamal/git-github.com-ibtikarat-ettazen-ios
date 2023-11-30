@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--OnboardingVC-->
+        <scene sceneID="oe5-Su-ISg">
+            <objects>
+                <viewController storyboardIdentifier="onboardingVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3PQ-f3-geX" customClass="onboardingVC" customModule="Ettizan_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tJ5-zF-kge">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="485" translatesAutoresizingMaskIntoConstraints="NO" id="960-eR-gQc">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2GF-mH-gTl" customClass="FSPagerView" customModule="FSPagerView">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="18"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3yR-NZ-cc4" customClass="FSPageControl" customModule="FSPagerView">
+                                <rect key="frame" x="146.66666666666666" y="610" width="100" height="8"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="8" id="LuT-qJ-VGN"/>
+                                    <constraint firstAttribute="width" constant="100" id="khP-SE-0NQ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UP4-rG-RhK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UP4-rG-RhK" firstAttribute="trailing" secondItem="960-eR-gQc" secondAttribute="trailing" id="3ki-wc-H21"/>
+                            <constraint firstItem="960-eR-gQc" firstAttribute="top" secondItem="tJ5-zF-kge" secondAttribute="top" id="6ep-gM-jq7"/>
+                            <constraint firstItem="3yR-NZ-cc4" firstAttribute="centerX" secondItem="tJ5-zF-kge" secondAttribute="centerX" id="Eki-JV-hgw"/>
+                            <constraint firstItem="960-eR-gQc" firstAttribute="leading" secondItem="tJ5-zF-kge" secondAttribute="leading" id="TnU-TI-hjd"/>
+                            <constraint firstAttribute="bottom" secondItem="960-eR-gQc" secondAttribute="bottom" id="Zeu-IX-qKS"/>
+                            <constraint firstItem="UP4-rG-RhK" firstAttribute="bottom" secondItem="3yR-NZ-cc4" secondAttribute="bottom" constant="200" id="kdX-Xx-rVC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="3yR-NZ-cc4" id="sFx-xJ-IId"/>
+                        <outlet property="pagerView" destination="2GF-mH-gTl" id="u4d-6V-huU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O7h-89-6lr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="-23.239436619718312"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

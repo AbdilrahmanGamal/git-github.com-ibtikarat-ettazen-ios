@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WalkthroughPagerCell" id="1sU-s3-i4t" customClass="WalkthroughPagerCell" customModule="Ettizan_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1261" height="773"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="1261" height="773"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pak-dg-zSf">
+                        <rect key="frame" x="0.0" y="0.0" width="1261" height="773"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo" translatesAutoresizingMaskIntoConstraints="NO" id="J27-Fh-zQM">
+                                <rect key="frame" x="0.0" y="0.0" width="1261" height="773"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="130" translatesAutoresizingMaskIntoConstraints="NO" id="s2G-rV-ojG">
+                                <rect key="frame" x="30" y="437" width="1201" height="226"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" حركة &amp; تنفس &amp; تأمل  حركة &amp; تنفس &amp; تأمل" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7b-3b-Rmw">
+                                        <rect key="frame" x="0.0" y="0.0" width="1201" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAD-wy-66I">
+                                        <rect key="frame" x="0.0" y="166" width="1201" height="60"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="kI3-Jg-fZS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnNext:" destination="1sU-s3-i4t" eventType="touchUpInside" id="yMc-Qw-l8J"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAx-UU-uXs">
+                                <rect key="frame" x="1208" y="40" width="33" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Skip">
+                                    <color key="titleColor" name="#F8F8F8"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localized" value="Skip"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnSkip:" destination="1sU-s3-i4t" eventType="touchUpInside" id="N7y-XG-ol5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="s2G-rV-ojG" secondAttribute="trailing" constant="30" id="CNs-gK-4dy"/>
+                            <constraint firstAttribute="bottom" secondItem="s2G-rV-ojG" secondAttribute="bottom" constant="110" id="IgR-BJ-jhB"/>
+                            <constraint firstAttribute="bottom" secondItem="J27-Fh-zQM" secondAttribute="bottom" id="JWm-or-3vg"/>
+                            <constraint firstItem="s2G-rV-ojG" firstAttribute="leading" secondItem="pak-dg-zSf" secondAttribute="leading" constant="30" id="Ka1-FS-lz1"/>
+                            <constraint firstItem="J27-Fh-zQM" firstAttribute="top" secondItem="pak-dg-zSf" secondAttribute="top" id="QLg-8H-PSh"/>
+                            <constraint firstAttribute="trailing" secondItem="J27-Fh-zQM" secondAttribute="trailing" id="aeb-Re-gDN"/>
+                            <constraint firstItem="J27-Fh-zQM" firstAttribute="leading" secondItem="pak-dg-zSf" secondAttribute="leading" id="bvY-kb-DXO"/>
+                            <constraint firstAttribute="trailing" secondItem="yAx-UU-uXs" secondAttribute="trailing" constant="20" id="e4g-zk-R2A"/>
+                            <constraint firstItem="s2G-rV-ojG" firstAttribute="centerX" secondItem="pak-dg-zSf" secondAttribute="centerX" id="iIn-rX-xj9"/>
+                            <constraint firstItem="yAx-UU-uXs" firstAttribute="top" secondItem="pak-dg-zSf" secondAttribute="top" constant="40" id="jlF-Jd-FsZ"/>
+                        </constraints>
+                        <directionalEdgeInsets key="directionalLayoutMargins" top="29" leading="8" bottom="8" trailing="10"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="18"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="LBE-Hd-YqT"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="pak-dg-zSf" firstAttribute="top" secondItem="1sU-s3-i4t" secondAttribute="top" id="9Yj-RM-UlH"/>
+                <constraint firstAttribute="bottom" secondItem="pak-dg-zSf" secondAttribute="bottom" id="NLH-NG-K35"/>
+                <constraint firstItem="pak-dg-zSf" firstAttribute="leading" secondItem="1sU-s3-i4t" secondAttribute="leading" id="e1s-YI-xOb"/>
+                <constraint firstAttribute="trailing" secondItem="pak-dg-zSf" secondAttribute="trailing" id="qYX-gp-p3A"/>
+            </constraints>
+            <size key="customSize" width="1261" height="773"/>
+            <connections>
+                <outlet property="btnNext" destination="XAD-wy-66I" id="DQf-Rm-cNY"/>
+                <outlet property="btnSkip" destination="yAx-UU-uXs" id="oDT-hX-u65"/>
+                <outlet property="img" destination="J27-Fh-zQM" id="SU8-2v-bbn"/>
+                <outlet property="lblTitle" destination="G7b-3b-Rmw" id="6PF-3l-kwA"/>
+            </connections>
+            <point key="canvasLocation" x="-397.82608695652175" y="172.43303571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="demo" width="430" height="932"/>
+        <namedColor name="#F8F8F8">
+            <color red="0.97299998998641968" green="0.97299998998641968" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

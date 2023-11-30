@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "bgmost_watched.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

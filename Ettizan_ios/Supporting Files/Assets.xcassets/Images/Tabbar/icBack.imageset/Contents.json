@@ -1,0 +1,18 @@
+{
+  "images" : [
+    {
+      "filename" : "icBack.svg",
+      "idiom" : "universal",
+      "language-direction" : "left-to-right"
+    },
+    {
+      "filename" : "icBackRTLL.svg",
+      "idiom" : "universal",
+      "language-direction" : "right-to-left"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

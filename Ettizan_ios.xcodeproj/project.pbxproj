@@ -7,25 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBBF6F8326518F2F4A1FA7D9 /* Pods_Ettizan_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBF59F422C1D7F14073616A /* Pods_Ettizan_ios.framework */; };
+		F909F5FB2B165B34002AB12F /* onboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F909F5FA2B165B34002AB12F /* onboardingVC.swift */; };
+		F909F5FF2B165C2F002AB12F /* WalkthroughPagerCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F909F5FD2B165C2F002AB12F /* WalkthroughPagerCellCollectionViewCell.swift */; };
+		F909F6002B165C2F002AB12F /* WalkthroughPagerCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F909F5FE2B165C2F002AB12F /* WalkthroughPagerCellCollectionViewCell.xib */; };
+		F909F6022B165CE2002AB12F /* onboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F909F6012B165CE1002AB12F /* onboardingViewModel.swift */; };
+		F909F6042B165FEC002AB12F /* onboardingVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F909F6032B165FEC002AB12F /* onboardingVC.storyboard */; };
+		F919F5302B17300E0007978C /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919F52F2B17300E0007978C /* ForgetPasswordVC.swift */; };
+		F919F5322B1730350007978C /* ForgetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919F5312B1730350007978C /* ForgetPasswordViewModel.swift */; };
+		F919F5342B1731B40007978C /* UIViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919F5332B1731B40007978C /* UIViewControllerEx.swift */; };
+		F919F5362B1733A50007978C /* ForgetPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F919F5352B1733A50007978C /* ForgetPassword.storyboard */; };
+		F919F5382B17363E0007978C /* ForgetPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919F5372B17363E0007978C /* ForgetPasswordModel.swift */; };
+		F919F53A2B1738E00007978C /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919F5392B1738E00007978C /* ResetPasswordVC.swift */; };
+		F919F53C2B1738F70007978C /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919F53B2B1738F70007978C /* ResetPasswordViewModel.swift */; };
+		F919F53E2B173AB70007978C /* UIFontEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919F53D2B173AB70007978C /* UIFontEx.swift */; };
+		F919F5422B173D8D0007978C /* ResetPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F919F5412B173D8D0007978C /* ResetPassword.storyboard */; };
+		F919F5472B175FFA0007978C /* ResetPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919F5462B175FFA0007978C /* ResetPasswordModel.swift */; };
+		F919F5492B17626E0007978C /* VertificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919F5482B17626E0007978C /* VertificationModel.swift */; };
+		F919F54B2B1763590007978C /* VertificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919F54A2B1763590007978C /* VertificationVC.swift */; };
+		F919F54D2B17637D0007978C /* VertificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919F54C2B17637D0007978C /* VertificationViewModel.swift */; };
+		F919F5512B17733C0007978C /* resendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919F5502B17733C0007978C /* resendModel.swift */; };
+		F919F5532B177A4A0007978C /* Vertification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F919F5522B177A4A0007978C /* Vertification.storyboard */; };
+		F97715BC2B14BA4C00BB1F33 /* UILabelEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97715BB2B14BA4C00BB1F33 /* UILabelEx.swift */; };
+		F97715BE2B14BC1200BB1F33 /* UIButtonEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97715BD2B14BC1200BB1F33 /* UIButtonEx.swift */; };
+		F97715C02B14BD4300BB1F33 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97715BF2B14BD4300BB1F33 /* LoginVC.swift */; };
+		F97715C22B14BDEF00BB1F33 /* UITextFieldEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97715C12B14BDEF00BB1F33 /* UITextFieldEX.swift */; };
+		F97715C52B14C3A500BB1F33 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97715C42B14C3A500BB1F33 /* CustomTextField.swift */; };
+		F97715C72B14C3D700BB1F33 /* CustomTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = F97715C62B14C3D700BB1F33 /* CustomTextField.xib */; };
+		F97715E62B14DC3B00BB1F33 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F97715E82B14DC3B00BB1F33 /* Localizable.strings */; };
+		F97715EA2B14DEAF00BB1F33 /* registerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97715E92B14DEAF00BB1F33 /* registerModel.swift */; };
+		F97715EC2B14DEC900BB1F33 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97715EB2B14DEC900BB1F33 /* UserModel.swift */; };
+		F97715EE2B14DEEB00BB1F33 /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97715ED2B14DEEB00BB1F33 /* ThemeModel.swift */; };
+		F97715F02B14DF7500BB1F33 /* loginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97715EF2B14DF7500BB1F33 /* loginModel.swift */; };
+		F9E46FF22B15E3000019B6D9 /* loginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E46FF12B15E3000019B6D9 /* loginViewModel.swift */; };
+		F9E46FF42B15E5CE0019B6D9 /* ChooseCountryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E46FF32B15E5CE0019B6D9 /* ChooseCountryVC.swift */; };
+		F9E46FF62B15E5F10019B6D9 /* ChooseCountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E46FF52B15E5F10019B6D9 /* ChooseCountryViewModel.swift */; };
+		F9E46FFA2B15E7490019B6D9 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E46FF82B15E7490019B6D9 /* CountryTableViewCell.swift */; };
+		F9E46FFB2B15E74A0019B6D9 /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E46FF92B15E7490019B6D9 /* CountryTableViewCell.xib */; };
+		F9E46FFE2B15F8060019B6D9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E46FFD2B15F8060019B6D9 /* Constants.swift */; };
+		F9E470002B1610900019B6D9 /* ChooseCountry.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E46FFF2B1610900019B6D9 /* ChooseCountry.storyboard */; };
+		F9E470022B162DAF0019B6D9 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E470012B162DAF0019B6D9 /* RegisterVC.swift */; };
+		F9E470042B162DD70019B6D9 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E470032B162DD70019B6D9 /* RegisterViewModel.swift */; };
+		F9E470062B162E390019B6D9 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E470052B162E390019B6D9 /* Register.storyboard */; };
 		F9E96E462B147A1900FF47B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E96E452B147A1900FF47B5 /* AppDelegate.swift */; };
-		F9E96E482B147A1900FF47B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E96E472B147A1900FF47B5 /* SceneDelegate.swift */; };
-		F9E96E4A2B147A1900FF47B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E96E492B147A1900FF47B5 /* ViewController.swift */; };
 		F9E96E4D2B147A1900FF47B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E96E4B2B147A1900FF47B5 /* Main.storyboard */; };
 		F9E96E502B147A1900FF47B5 /* Ettizan_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9E96E4E2B147A1900FF47B5 /* Ettizan_ios.xcdatamodeld */; };
 		F9E96E522B147A1C00FF47B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E96E512B147A1C00FF47B5 /* Assets.xcassets */; };
 		F9E96E552B147A1C00FF47B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E96E532B147A1C00FF47B5 /* LaunchScreen.storyboard */; };
+		F9E96E652B147D4B00FF47B5 /* Alnaseeb.otf in Resources */ = {isa = PBXBuildFile; fileRef = F9E96E632B147D4B00FF47B5 /* Alnaseeb.otf */; };
+		F9E96E662B147D4B00FF47B5 /* unpkg.com_boxicons@2.1.4_css_boxicons.min.css in Resources */ = {isa = PBXBuildFile; fileRef = F9E96E642B147D4B00FF47B5 /* unpkg.com_boxicons@2.1.4_css_boxicons.min.css */; };
+		F9E96E692B147D9400FF47B5 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E96E672B147D9400FF47B5 /* UIView+Extensions.swift */; };
+		F9E96E6A2B147D9400FF47B5 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E96E682B147D9400FF47B5 /* Alert.swift */; };
+		F9E96E6C2B14916100FF47B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E96E6B2B14916100FF47B5 /* ViewController.swift */; };
+		F9E96E6E2B149EE500FF47B5 /* SharedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E96E6D2B149EE400FF47B5 /* SharedManager.swift */; };
+		F9E9768B2B14A4F100FF47B5 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E976892B14A4F100FF47B5 /* APIRouter.swift */; };
+		F9E9768C2B14A4F100FF47B5 /* APIClient+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9768A2B14A4F100FF47B5 /* APIClient+Extension.swift */; };
+		F9E9768F2B14A54500FF47B5 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9768E2B14A54400FF47B5 /* Cache.swift */; };
+		F9E976952B14A57100FF47B5 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E976912B14A57000FF47B5 /* UIApplicationExtension.swift */; };
+		F9E976962B14A57100FF47B5 /* Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E976922B14A57100FF47B5 /* Localizer.swift */; };
+		F9E976972B14A57100FF47B5 /* LanguageManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E976932B14A57100FF47B5 /* LanguageManger.swift */; };
+		F9E976982B14A57100FF47B5 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E976942B14A57100FF47B5 /* Language.swift */; };
+		F9E9769D2B14A5CF00FF47B5 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9769C2B14A5CF00FF47B5 /* UIImageViewExtension.swift */; };
+		F9E976C62B14ABC300FF47B5 /* settingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E976C52B14ABC300FF47B5 /* settingsModel.swift */; };
+		F9E976C82B14ABDD00FF47B5 /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E976C72B14ABDD00FF47B5 /* IntroScreen.swift */; };
+		F9E976CA2B14ABEC00FF47B5 /* DefaultTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E976C92B14ABEC00FF47B5 /* DefaultTheme.swift */; };
+		F9E976CC2B14AC0500FF47B5 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E976CB2B14AC0400FF47B5 /* Country.swift */; };
+		F9E976CE2B14AC1800FF47B5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E976CD2B14AC1800FF47B5 /* Config.swift */; };
+		F9E976D02B14B01B00FF47B5 /* extensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E976CF2B14B01B00FF47B5 /* extensionString.swift */; };
+		F9E976D22B14B06500FF47B5 /* extensionUIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E976D12B14B06500FF47B5 /* extensionUIFont.swift */; };
+		F9E976D42B14B39A00FF47B5 /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E976D32B14B39A00FF47B5 /* UIColorEx.swift */; };
+		F9E976D62B14B46800FF47B5 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E976D52B14B46800FF47B5 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FBF59F422C1D7F14073616A /* Pods_Ettizan_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ettizan_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B2A386F9605AB2C6665900 /* Pods-Ettizan_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ettizan_ios.release.xcconfig"; path = "Target Support Files/Pods-Ettizan_ios/Pods-Ettizan_ios.release.xcconfig"; sourceTree = "<group>"; };
+		AAF67186D33329509F3D5A18 /* Pods-Ettizan_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ettizan_ios.debug.xcconfig"; path = "Target Support Files/Pods-Ettizan_ios/Pods-Ettizan_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		F909F5FA2B165B34002AB12F /* onboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingVC.swift; sourceTree = "<group>"; };
+		F909F5FD2B165C2F002AB12F /* WalkthroughPagerCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughPagerCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		F909F5FE2B165C2F002AB12F /* WalkthroughPagerCellCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalkthroughPagerCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		F909F6012B165CE1002AB12F /* onboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingViewModel.swift; sourceTree = "<group>"; };
+		F909F6032B165FEC002AB12F /* onboardingVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = onboardingVC.storyboard; sourceTree = "<group>"; };
+		F919F52F2B17300E0007978C /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
+		F919F5312B1730350007978C /* ForgetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewModel.swift; sourceTree = "<group>"; };
+		F919F5332B1731B40007978C /* UIViewControllerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerEx.swift; sourceTree = "<group>"; };
+		F919F5352B1733A50007978C /* ForgetPassword.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ForgetPassword.storyboard; sourceTree = "<group>"; };
+		F919F5372B17363E0007978C /* ForgetPasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordModel.swift; sourceTree = "<group>"; };
+		F919F5392B1738E00007978C /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		F919F53B2B1738F70007978C /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
+		F919F53D2B173AB70007978C /* UIFontEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontEx.swift; sourceTree = "<group>"; };
+		F919F5412B173D8D0007978C /* ResetPassword.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResetPassword.storyboard; sourceTree = "<group>"; };
+		F919F5462B175FFA0007978C /* ResetPasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordModel.swift; sourceTree = "<group>"; };
+		F919F5482B17626E0007978C /* VertificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertificationModel.swift; sourceTree = "<group>"; };
+		F919F54A2B1763590007978C /* VertificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertificationVC.swift; sourceTree = "<group>"; };
+		F919F54C2B17637D0007978C /* VertificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertificationViewModel.swift; sourceTree = "<group>"; };
+		F919F5502B17733C0007978C /* resendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resendModel.swift; sourceTree = "<group>"; };
+		F919F5522B177A4A0007978C /* Vertification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Vertification.storyboard; sourceTree = "<group>"; };
+		F97715BB2B14BA4C00BB1F33 /* UILabelEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelEx.swift; sourceTree = "<group>"; };
+		F97715BD2B14BC1200BB1F33 /* UIButtonEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonEx.swift; sourceTree = "<group>"; };
+		F97715BF2B14BD4300BB1F33 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		F97715C12B14BDEF00BB1F33 /* UITextFieldEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldEX.swift; sourceTree = "<group>"; };
+		F97715C42B14C3A500BB1F33 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		F97715C62B14C3D700BB1F33 /* CustomTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTextField.xib; sourceTree = "<group>"; };
+		F97715E42B14DC1D00BB1F33 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		F97715E52B14DC1D00BB1F33 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F97715E72B14DC3B00BB1F33 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F97715E92B14DEAF00BB1F33 /* registerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerModel.swift; sourceTree = "<group>"; };
+		F97715EB2B14DEC900BB1F33 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F97715ED2B14DEEB00BB1F33 /* ThemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModel.swift; sourceTree = "<group>"; };
+		F97715EF2B14DF7500BB1F33 /* loginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginModel.swift; sourceTree = "<group>"; };
+		F9E46FF12B15E3000019B6D9 /* loginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewModel.swift; sourceTree = "<group>"; };
+		F9E46FF32B15E5CE0019B6D9 /* ChooseCountryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCountryVC.swift; sourceTree = "<group>"; };
+		F9E46FF52B15E5F10019B6D9 /* ChooseCountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCountryViewModel.swift; sourceTree = "<group>"; };
+		F9E46FF82B15E7490019B6D9 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		F9E46FF92B15E7490019B6D9 /* CountryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
+		F9E46FFD2B15F8060019B6D9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F9E46FFF2B1610900019B6D9 /* ChooseCountry.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChooseCountry.storyboard; sourceTree = "<group>"; };
+		F9E470012B162DAF0019B6D9 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		F9E470032B162DD70019B6D9 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		F9E470052B162E390019B6D9 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
 		F9E96E422B147A1900FF47B5 /* Ettizan_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ettizan_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E96E452B147A1900FF47B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9E96E472B147A1900FF47B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F9E96E492B147A1900FF47B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9E96E4C2B147A1900FF47B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9E96E4F2B147A1900FF47B5 /* Ettizan_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ettizan_ios.xcdatamodel; sourceTree = "<group>"; };
 		F9E96E512B147A1C00FF47B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9E96E542B147A1C00FF47B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9E96E562B147A1C00FF47B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E96E632B147D4B00FF47B5 /* Alnaseeb.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Alnaseeb.otf; sourceTree = "<group>"; };
+		F9E96E642B147D4B00FF47B5 /* unpkg.com_boxicons@2.1.4_css_boxicons.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "unpkg.com_boxicons@2.1.4_css_boxicons.min.css"; sourceTree = "<group>"; };
+		F9E96E672B147D9400FF47B5 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		F9E96E682B147D9400FF47B5 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		F9E96E6B2B14916100FF47B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9E96E6D2B149EE400FF47B5 /* SharedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedManager.swift; sourceTree = "<group>"; };
+		F9E976892B14A4F100FF47B5 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		F9E9768A2B14A4F100FF47B5 /* APIClient+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIClient+Extension.swift"; sourceTree = "<group>"; };
+		F9E9768E2B14A54400FF47B5 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		F9E976912B14A57000FF47B5 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		F9E976922B14A57100FF47B5 /* Localizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizer.swift; sourceTree = "<group>"; };
+		F9E976932B14A57100FF47B5 /* LanguageManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageManger.swift; sourceTree = "<group>"; };
+		F9E976942B14A57100FF47B5 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		F9E9769C2B14A5CF00FF47B5 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		F9E976C52B14ABC300FF47B5 /* settingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsModel.swift; sourceTree = "<group>"; };
+		F9E976C72B14ABDD00FF47B5 /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
+		F9E976C92B14ABEC00FF47B5 /* DefaultTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTheme.swift; sourceTree = "<group>"; };
+		F9E976CB2B14AC0400FF47B5 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		F9E976CD2B14AC1800FF47B5 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F9E976CF2B14B01B00FF47B5 /* extensionString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensionString.swift; sourceTree = "<group>"; };
+		F9E976D12B14B06500FF47B5 /* extensionUIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensionUIFont.swift; sourceTree = "<group>"; };
+		F9E976D32B14B39A00FF47B5 /* UIColorEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorEx.swift; sourceTree = "<group>"; };
+		F9E976D52B14B46800FF47B5 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +163,131 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBBF6F8326518F2F4A1FA7D9 /* Pods_Ettizan_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9F3825075972811AECE6FD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAF67186D33329509F3D5A18 /* Pods-Ettizan_ios.debug.xcconfig */,
+				A2B2A386F9605AB2C6665900 /* Pods-Ettizan_ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C45E3A5BEF7E93936483DF60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FBF59F422C1D7F14073616A /* Pods_Ettizan_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F909F5F52B165B14002AB12F /* onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F909F5F92B165B28002AB12F /* Controller */,
+				F909F5F82B165B20002AB12F /* ViewModel */,
+				F909F5F72B165B1A002AB12F /* Model */,
+				F909F5F62B165B17002AB12F /* View */,
+			);
+			path = onboarding;
+			sourceTree = "<group>";
+		};
+		F909F5F62B165B17002AB12F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F909F5FC2B165BC8002AB12F /* cell */,
+				F909F6032B165FEC002AB12F /* onboardingVC.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F909F5F72B165B1A002AB12F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F909F5F82B165B20002AB12F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F909F6012B165CE1002AB12F /* onboardingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F909F5F92B165B28002AB12F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F909F5FA2B165B34002AB12F /* onboardingVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F909F5FC2B165BC8002AB12F /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				F909F5FD2B165C2F002AB12F /* WalkthroughPagerCellCollectionViewCell.swift */,
+				F909F5FE2B165C2F002AB12F /* WalkthroughPagerCellCollectionViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		F919F54E2B1773160007978C /* VertificationModel */ = {
+			isa = PBXGroup;
+			children = (
+				F919F5482B17626E0007978C /* VertificationModel.swift */,
+			);
+			path = VertificationModel;
+			sourceTree = "<group>";
+		};
+		F919F54F2B1773330007978C /* resendModel */ = {
+			isa = PBXGroup;
+			children = (
+				F919F5502B17733C0007978C /* resendModel.swift */,
+			);
+			path = resendModel;
+			sourceTree = "<group>";
+		};
+		F97715C32B14C33900BB1F33 /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				F97715C42B14C3A500BB1F33 /* CustomTextField.swift */,
+				F97715C62B14C3D700BB1F33 /* CustomTextField.xib */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		F9E46FF72B15E7380019B6D9 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				F9E46FF82B15E7490019B6D9 /* CountryTableViewCell.swift */,
+				F9E46FF92B15E7490019B6D9 /* CountryTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		F9E46FFC2B15F8000019B6D9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F9E46FFD2B15F8060019B6D9 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		F9E96E392B147A1900FF47B5 = {
 			isa = PBXGroup;
 			children = (
 				F9E96E442B147A1900FF47B5 /* Ettizan_ios */,
 				F9E96E432B147A1900FF47B5 /* Products */,
+				A9F3825075972811AECE6FD0 /* Pods */,
+				C45E3A5BEF7E93936483DF60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +302,480 @@
 		F9E96E442B147A1900FF47B5 /* Ettizan_ios */ = {
 			isa = PBXGroup;
 			children = (
-				F9E96E452B147A1900FF47B5 /* AppDelegate.swift */,
-				F9E96E472B147A1900FF47B5 /* SceneDelegate.swift */,
-				F9E96E492B147A1900FF47B5 /* ViewController.swift */,
-				F9E96E4B2B147A1900FF47B5 /* Main.storyboard */,
-				F9E96E512B147A1C00FF47B5 /* Assets.xcassets */,
-				F9E96E532B147A1C00FF47B5 /* LaunchScreen.storyboard */,
+				F9E96E6B2B14916100FF47B5 /* ViewController.swift */,
+				F9E96E5C2B147A8E00FF47B5 /* AppDelegate */,
+				F9E96E5D2B147AA500FF47B5 /* ViewControllers */,
+				F9E96E5F2B147ACF00FF47B5 /* Storyboards */,
+				F9E96E5E2B147AB500FF47B5 /* Supporting Files */,
+				F9E96E602B147AF400FF47B5 /* WebService */,
+				F9E96E612B147B0B00FF47B5 /* Utils */,
 				F9E96E562B147A1C00FF47B5 /* Info.plist */,
-				F9E96E4E2B147A1900FF47B5 /* Ettizan_ios.xcdatamodeld */,
 			);
 			path = Ettizan_ios;
+			sourceTree = "<group>";
+		};
+		F9E96E5C2B147A8E00FF47B5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F9E96E452B147A1900FF47B5 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F9E96E5D2B147AA500FF47B5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F909F5F52B165B14002AB12F /* onboarding */,
+				F9E9769E2B14A65600FF47B5 /* sign_in */,
+				F9E976A52B14A6B000FF47B5 /* tabBar */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F9E96E5E2B147AB500FF47B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9E96E4E2B147A1900FF47B5 /* Ettizan_ios.xcdatamodeld */,
+				F9E96E512B147A1C00FF47B5 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9E96E5F2B147ACF00FF47B5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F9E96E4B2B147A1900FF47B5 /* Main.storyboard */,
+				F9E96E532B147A1C00FF47B5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F9E96E602B147AF400FF47B5 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				F9E9768A2B14A4F100FF47B5 /* APIClient+Extension.swift */,
+				F9E976892B14A4F100FF47B5 /* APIRouter.swift */,
+				F9E976C32B14AB9200FF47B5 /* Global Model */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		F9E96E612B147B0B00FF47B5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F9E46FFC2B15F8000019B6D9 /* Constants */,
+				F9E9769A2B14A57F00FF47B5 /* SharedManager */,
+				F9E9768D2B14A53B00FF47B5 /* Cache */,
+				F9E976992B14A57600FF47B5 /* Alert */,
+				F9E9769B2B14A58C00FF47B5 /* Extensions */,
+				F9E976902B14A56600FF47B5 /* Language */,
+				F9E96E622B147D4B00FF47B5 /* fonts */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F9E96E622B147D4B00FF47B5 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F9E96E632B147D4B00FF47B5 /* Alnaseeb.otf */,
+				F9E96E642B147D4B00FF47B5 /* unpkg.com_boxicons@2.1.4_css_boxicons.min.css */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		F9E9768D2B14A53B00FF47B5 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				F9E9768E2B14A54400FF47B5 /* Cache.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		F9E976902B14A56600FF47B5 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				F9E976942B14A57100FF47B5 /* Language.swift */,
+				F9E976932B14A57100FF47B5 /* LanguageManger.swift */,
+				F9E976922B14A57100FF47B5 /* Localizer.swift */,
+				F9E976912B14A57000FF47B5 /* UIApplicationExtension.swift */,
+				F97715E82B14DC3B00BB1F33 /* Localizable.strings */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		F9E976992B14A57600FF47B5 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				F9E96E682B147D9400FF47B5 /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		F9E9769A2B14A57F00FF47B5 /* SharedManager */ = {
+			isa = PBXGroup;
+			children = (
+				F9E96E6D2B149EE400FF47B5 /* SharedManager.swift */,
+			);
+			path = SharedManager;
+			sourceTree = "<group>";
+		};
+		F9E9769B2B14A58C00FF47B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F9E976D12B14B06500FF47B5 /* extensionUIFont.swift */,
+				F9E976CF2B14B01B00FF47B5 /* extensionString.swift */,
+				F9E9769C2B14A5CF00FF47B5 /* UIImageViewExtension.swift */,
+				F9E96E672B147D9400FF47B5 /* UIView+Extensions.swift */,
+				F9E976D32B14B39A00FF47B5 /* UIColorEx.swift */,
+				F97715BB2B14BA4C00BB1F33 /* UILabelEx.swift */,
+				F97715BD2B14BC1200BB1F33 /* UIButtonEx.swift */,
+				F97715C12B14BDEF00BB1F33 /* UITextFieldEX.swift */,
+				F919F5332B1731B40007978C /* UIViewControllerEx.swift */,
+				F919F53D2B173AB70007978C /* UIFontEx.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F9E9769E2B14A65600FF47B5 /* sign_in */ = {
+			isa = PBXGroup;
+			children = (
+				F9E976A42B14A6AC00FF47B5 /* ChooseCountry */,
+				F9E976A32B14A69200FF47B5 /* Vertification */,
+				F9E976A22B14A68A00FF47B5 /* ResetPassword */,
+				F9E976A12B14A68100FF47B5 /* ForgetPassword */,
+				F9E976A02B14A67900FF47B5 /* Register */,
+				F9E9769F2B14A67100FF47B5 /* Login */,
+			);
+			path = sign_in;
+			sourceTree = "<group>";
+		};
+		F9E9769F2B14A67100FF47B5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F9E976AE2B14A70200FF47B5 /* Controller */,
+				F9E976AD2B14A6FE00FF47B5 /* ViewModel */,
+				F9E976AC2B14A6F800FF47B5 /* Model */,
+				F9E976AB2B14A6F500FF47B5 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F9E976A02B14A67900FF47B5 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				F9E976B22B14A73C00FF47B5 /* Controller */,
+				F9E976B12B14A73500FF47B5 /* ViewModel */,
+				F9E976B02B14A72B00FF47B5 /* Model */,
+				F9E976AF2B14A72800FF47B5 /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		F9E976A12B14A68100FF47B5 /* ForgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				F9E976B62B14A75200FF47B5 /* Controller */,
+				F9E976B52B14A74D00FF47B5 /* ViewModel */,
+				F9E976B42B14A74700FF47B5 /* Model */,
+				F9E976B32B14A74200FF47B5 /* View */,
+			);
+			path = ForgetPassword;
+			sourceTree = "<group>";
+		};
+		F9E976A22B14A68A00FF47B5 /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				F9E976BA2B14A76700FF47B5 /* Controller */,
+				F9E976B92B14A76200FF47B5 /* ViewModel */,
+				F9E976B82B14A75D00FF47B5 /* Model */,
+				F9E976B72B14A75900FF47B5 /* View */,
+			);
+			path = ResetPassword;
+			sourceTree = "<group>";
+		};
+		F9E976A32B14A69200FF47B5 /* Vertification */ = {
+			isa = PBXGroup;
+			children = (
+				F9E976BE2B14A77D00FF47B5 /* Controller */,
+				F9E976BD2B14A77700FF47B5 /* ViewModel */,
+				F9E976BC2B14A77200FF47B5 /* Model */,
+				F9E976BB2B14A76D00FF47B5 /* View */,
+			);
+			path = Vertification;
+			sourceTree = "<group>";
+		};
+		F9E976A42B14A6AC00FF47B5 /* ChooseCountry */ = {
+			isa = PBXGroup;
+			children = (
+				F9E976C22B14A79000FF47B5 /* Controller */,
+				F9E976C12B14A78B00FF47B5 /* ViewModel */,
+				F9E976C02B14A78600FF47B5 /* Model */,
+				F9E976BF2B14A78300FF47B5 /* View */,
+			);
+			path = ChooseCountry;
+			sourceTree = "<group>";
+		};
+		F9E976A52B14A6B000FF47B5 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F9E976AA2B14A6DF00FF47B5 /* Account */,
+				F9E976A92B14A6D900FF47B5 /* Reels */,
+				F9E976A82B14A6D300FF47B5 /* Ittizanat */,
+				F9E976A72B14A6CC00FF47B5 /* Categories */,
+				F9E976A62B14A6C500FF47B5 /* Home */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+		F9E976A62B14A6C500FF47B5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F9E976A72B14A6CC00FF47B5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F9E976A82B14A6D300FF47B5 /* Ittizanat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ittizanat;
+			sourceTree = "<group>";
+		};
+		F9E976A92B14A6D900FF47B5 /* Reels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reels;
+			sourceTree = "<group>";
+		};
+		F9E976AA2B14A6DF00FF47B5 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		F9E976AB2B14A6F500FF47B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F97715C32B14C33900BB1F33 /* CustomTextField */,
+				F9E976D52B14B46800FF47B5 /* Login.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9E976AC2B14A6F800FF47B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F97715EF2B14DF7500BB1F33 /* loginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9E976AD2B14A6FE00FF47B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F9E46FF12B15E3000019B6D9 /* loginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F9E976AE2B14A70200FF47B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F97715BF2B14BD4300BB1F33 /* LoginVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F9E976AF2B14A72800FF47B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9E470052B162E390019B6D9 /* Register.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9E976B02B14A72B00FF47B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F97715E92B14DEAF00BB1F33 /* registerModel.swift */,
+				F97715EB2B14DEC900BB1F33 /* UserModel.swift */,
+				F97715ED2B14DEEB00BB1F33 /* ThemeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9E976B12B14A73500FF47B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F9E470032B162DD70019B6D9 /* RegisterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F9E976B22B14A73C00FF47B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F9E470012B162DAF0019B6D9 /* RegisterVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F9E976B32B14A74200FF47B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F919F5352B1733A50007978C /* ForgetPassword.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9E976B42B14A74700FF47B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F919F5372B17363E0007978C /* ForgetPasswordModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9E976B52B14A74D00FF47B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F919F5312B1730350007978C /* ForgetPasswordViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F9E976B62B14A75200FF47B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F919F52F2B17300E0007978C /* ForgetPasswordVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F9E976B72B14A75900FF47B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F919F5412B173D8D0007978C /* ResetPassword.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9E976B82B14A75D00FF47B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F919F5462B175FFA0007978C /* ResetPasswordModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9E976B92B14A76200FF47B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F919F53B2B1738F70007978C /* ResetPasswordViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F9E976BA2B14A76700FF47B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F919F5392B1738E00007978C /* ResetPasswordVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F9E976BB2B14A76D00FF47B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F919F5522B177A4A0007978C /* Vertification.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9E976BC2B14A77200FF47B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F919F54F2B1773330007978C /* resendModel */,
+				F919F54E2B1773160007978C /* VertificationModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9E976BD2B14A77700FF47B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F919F54C2B17637D0007978C /* VertificationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F9E976BE2B14A77D00FF47B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F919F54A2B1763590007978C /* VertificationVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F9E976BF2B14A78300FF47B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9E46FF72B15E7380019B6D9 /* cell */,
+				F9E46FFF2B1610900019B6D9 /* ChooseCountry.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9E976C02B14A78600FF47B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9E976C12B14A78B00FF47B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F9E46FF52B15E5F10019B6D9 /* ChooseCountryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F9E976C22B14A79000FF47B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F9E46FF32B15E5CE0019B6D9 /* ChooseCountryVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F9E976C32B14AB9200FF47B5 /* Global Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9E976C42B14ABB600FF47B5 /* settingsModel */,
+			);
+			path = "Global Model";
+			sourceTree = "<group>";
+		};
+		F9E976C42B14ABB600FF47B5 /* settingsModel */ = {
+			isa = PBXGroup;
+			children = (
+				F9E976C52B14ABC300FF47B5 /* settingsModel.swift */,
+				F9E976C72B14ABDD00FF47B5 /* IntroScreen.swift */,
+				F9E976C92B14ABEC00FF47B5 /* DefaultTheme.swift */,
+				F9E976CB2B14AC0400FF47B5 /* Country.swift */,
+				F9E976CD2B14AC1800FF47B5 /* Config.swift */,
+			);
+			path = settingsModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +785,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9E96E592B147A1C00FF47B5 /* Build configuration list for PBXNativeTarget "Ettizan_ios" */;
 			buildPhases = (
+				DF22F2EAFA2E83606C9E7E0B /* [CP] Check Pods Manifest.lock */,
 				F9E96E3E2B147A1900FF47B5 /* Sources */,
 				F9E96E3F2B147A1900FF47B5 /* Frameworks */,
 				F9E96E402B147A1900FF47B5 /* Resources */,
+				FA00A46D4E0DF8C39644C297 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -112,6 +822,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = F9E96E392B147A1900FF47B5;
 			productRefGroup = F9E96E432B147A1900FF47B5 /* Products */;
@@ -130,31 +841,144 @@
 			files = (
 				F9E96E552B147A1C00FF47B5 /* LaunchScreen.storyboard in Resources */,
 				F9E96E522B147A1C00FF47B5 /* Assets.xcassets in Resources */,
+				F919F5362B1733A50007978C /* ForgetPassword.storyboard in Resources */,
+				F9E470002B1610900019B6D9 /* ChooseCountry.storyboard in Resources */,
+				F9E976D62B14B46800FF47B5 /* Login.storyboard in Resources */,
+				F9E96E662B147D4B00FF47B5 /* unpkg.com_boxicons@2.1.4_css_boxicons.min.css in Resources */,
+				F919F5532B177A4A0007978C /* Vertification.storyboard in Resources */,
+				F97715C72B14C3D700BB1F33 /* CustomTextField.xib in Resources */,
+				F9E470062B162E390019B6D9 /* Register.storyboard in Resources */,
+				F97715E62B14DC3B00BB1F33 /* Localizable.strings in Resources */,
+				F9E46FFB2B15E74A0019B6D9 /* CountryTableViewCell.xib in Resources */,
+				F909F6042B165FEC002AB12F /* onboardingVC.storyboard in Resources */,
+				F909F6002B165C2F002AB12F /* WalkthroughPagerCellCollectionViewCell.xib in Resources */,
+				F9E96E652B147D4B00FF47B5 /* Alnaseeb.otf in Resources */,
 				F9E96E4D2B147A1900FF47B5 /* Main.storyboard in Resources */,
+				F919F5422B173D8D0007978C /* ResetPassword.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF22F2EAFA2E83606C9E7E0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ettizan_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA00A46D4E0DF8C39644C297 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ettizan_ios/Pods-Ettizan_ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ettizan_ios/Pods-Ettizan_ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ettizan_ios/Pods-Ettizan_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9E96E3E2B147A1900FF47B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9E96E4A2B147A1900FF47B5 /* ViewController.swift in Sources */,
+				F9E46FF62B15E5F10019B6D9 /* ChooseCountryViewModel.swift in Sources */,
+				F919F53A2B1738E00007978C /* ResetPasswordVC.swift in Sources */,
+				F9E9768B2B14A4F100FF47B5 /* APIRouter.swift in Sources */,
+				F919F5322B1730350007978C /* ForgetPasswordViewModel.swift in Sources */,
+				F9E976CA2B14ABEC00FF47B5 /* DefaultTheme.swift in Sources */,
+				F9E9768F2B14A54500FF47B5 /* Cache.swift in Sources */,
+				F9E976C62B14ABC300FF47B5 /* settingsModel.swift in Sources */,
+				F97715C22B14BDEF00BB1F33 /* UITextFieldEX.swift in Sources */,
+				F9E976CE2B14AC1800FF47B5 /* Config.swift in Sources */,
+				F9E976962B14A57100FF47B5 /* Localizer.swift in Sources */,
+				F9E976952B14A57100FF47B5 /* UIApplicationExtension.swift in Sources */,
+				F909F6022B165CE2002AB12F /* onboardingViewModel.swift in Sources */,
+				F919F5512B17733C0007978C /* resendModel.swift in Sources */,
+				F97715EC2B14DEC900BB1F33 /* UserModel.swift in Sources */,
+				F97715EA2B14DEAF00BB1F33 /* registerModel.swift in Sources */,
+				F919F53C2B1738F70007978C /* ResetPasswordViewModel.swift in Sources */,
+				F97715C52B14C3A500BB1F33 /* CustomTextField.swift in Sources */,
+				F97715F02B14DF7500BB1F33 /* loginModel.swift in Sources */,
+				F9E96E6E2B149EE500FF47B5 /* SharedManager.swift in Sources */,
+				F919F54D2B17637D0007978C /* VertificationViewModel.swift in Sources */,
+				F919F54B2B1763590007978C /* VertificationVC.swift in Sources */,
+				F9E976D02B14B01B00FF47B5 /* extensionString.swift in Sources */,
+				F9E470022B162DAF0019B6D9 /* RegisterVC.swift in Sources */,
+				F909F5FB2B165B34002AB12F /* onboardingVC.swift in Sources */,
+				F9E46FF42B15E5CE0019B6D9 /* ChooseCountryVC.swift in Sources */,
+				F97715C02B14BD4300BB1F33 /* LoginVC.swift in Sources */,
+				F9E976D22B14B06500FF47B5 /* extensionUIFont.swift in Sources */,
+				F9E976D42B14B39A00FF47B5 /* UIColorEx.swift in Sources */,
+				F9E46FFA2B15E7490019B6D9 /* CountryTableViewCell.swift in Sources */,
+				F9E96E6C2B14916100FF47B5 /* ViewController.swift in Sources */,
+				F9E96E692B147D9400FF47B5 /* UIView+Extensions.swift in Sources */,
+				F9E976C82B14ABDD00FF47B5 /* IntroScreen.swift in Sources */,
+				F9E46FF22B15E3000019B6D9 /* loginViewModel.swift in Sources */,
+				F9E976CC2B14AC0500FF47B5 /* Country.swift in Sources */,
 				F9E96E502B147A1900FF47B5 /* Ettizan_ios.xcdatamodeld in Sources */,
+				F9E470042B162DD70019B6D9 /* RegisterViewModel.swift in Sources */,
+				F909F5FF2B165C2F002AB12F /* WalkthroughPagerCellCollectionViewCell.swift in Sources */,
+				F9E9769D2B14A5CF00FF47B5 /* UIImageViewExtension.swift in Sources */,
+				F919F5342B1731B40007978C /* UIViewControllerEx.swift in Sources */,
+				F9E976982B14A57100FF47B5 /* Language.swift in Sources */,
+				F97715BE2B14BC1200BB1F33 /* UIButtonEx.swift in Sources */,
+				F97715BC2B14BA4C00BB1F33 /* UILabelEx.swift in Sources */,
+				F9E9768C2B14A4F100FF47B5 /* APIClient+Extension.swift in Sources */,
+				F9E976972B14A57100FF47B5 /* LanguageManger.swift in Sources */,
+				F97715EE2B14DEEB00BB1F33 /* ThemeModel.swift in Sources */,
+				F9E96E6A2B147D9400FF47B5 /* Alert.swift in Sources */,
+				F919F53E2B173AB70007978C /* UIFontEx.swift in Sources */,
 				F9E96E462B147A1900FF47B5 /* AppDelegate.swift in Sources */,
-				F9E96E482B147A1900FF47B5 /* SceneDelegate.swift in Sources */,
+				F919F5302B17300E0007978C /* ForgetPasswordVC.swift in Sources */,
+				F9E46FFE2B15F8060019B6D9 /* Constants.swift in Sources */,
+				F919F5382B17363E0007978C /* ForgetPasswordModel.swift in Sources */,
+				F919F5472B175FFA0007978C /* ResetPasswordModel.swift in Sources */,
+				F919F5492B17626E0007978C /* VertificationModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		F97715E82B14DC3B00BB1F33 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F97715E72B14DC3B00BB1F33 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		F9E96E4B2B147A1900FF47B5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F9E96E4C2B147A1900FF47B5 /* Base */,
+				F97715E42B14DC1D00BB1F33 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -163,6 +987,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F9E96E542B147A1C00FF47B5 /* Base */,
+				F97715E52B14DC1D00BB1F33 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -175,6 +1000,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -238,6 +1064,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -291,13 +1118,21 @@
 		};
 		F9E96E5A2B147A1C00FF47B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF67186D33329509F3D5A18 /* Pods-Ettizan_ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96RSKZJP5J;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ettizan_ios/Utils/Alhabibshop/PayFortSDK",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ettizan_ios/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "اتزن";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -308,7 +1143,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Ettizan-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ettizan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,13 +1153,21 @@
 		};
 		F9E96E5B2B147A1C00FF47B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B2A386F9605AB2C6665900 /* Pods-Ettizan_ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96RSKZJP5J;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ettizan_ios/Utils/Alhabibshop/PayFortSDK",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ettizan_ios/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "اتزن";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,7 +1178,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Ettizan-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ettizan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
